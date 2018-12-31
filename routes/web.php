@@ -27,3 +27,4 @@ Route::post('/flower/', function ()
 });
 
 Route::get('/flower/create', 'FlowerController@create');
+
