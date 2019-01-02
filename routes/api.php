@@ -23,7 +23,7 @@ Route::get('/flower', 'FlowerController@index');
 
 Route::post('/flower/order', 'FlowerController@order');
 
-Route::post('/flower/companyPlace', 'FlowerController@companyPlace');
+Route::get('/flower/companyPlace', 'FlowerController@companyPlace');
 
 
 
